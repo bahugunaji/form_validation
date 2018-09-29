@@ -1,0 +1,13 @@
+// body 
+
+// variable
+$body-bg: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(0, 90, 167), rgb(255, 253, 228)) repeat scroll 0% 0%;
+body{
+	background: $body-bg;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	line-height:1.4;
+	height:100%;
+	margin:0;
+	padding:0;
+}

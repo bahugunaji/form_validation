@@ -1,0 +1,45 @@
+
+
+/* VARIABLES */
+$header-bg: #3f51b5;
+$body-bg: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(0, 90, 167), rgb(255, 253, 228)) repeat scroll 0% 0%;
+$menu-width: 250px!default;
+
+
+
+*{
+	paddimg:0;
+}
+
+a{
+	text-decoration:none;
+	&:hover{
+		color:#ffcccc;
+	}
+}
+
+html,
+body{
+	background: $body-bg;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	line-height:1.4;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+.conatiner{
+	width:50%;
+	margin: 0 auto;
+}
+header{
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100)) repeat scroll 0% 0%;
+	margin:0 0 5rem;	
+	h1{
+		color:#fff;
+		text-transform: capitalize;
+	}
+}
+
+@import 'responsive.scss';
+

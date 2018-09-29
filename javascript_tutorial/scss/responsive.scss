@@ -1,0 +1,15 @@
+// Responisve css
+@media all and (min-width: 300px) and (max-width:768px){
+	.conatiner{
+		width:99%;
+	}
+	header{
+		margin: 0 0  2rem;
+		h1{
+			font-size: 1.5em;
+		}
+	}
+	form{
+		padding:0 0 25px;
+	}
+}
